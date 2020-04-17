@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {	
+	margin: 0;	   
+	height:100%;
+	width: 100%;
+/*    border: solid black;*/
+}
+.intro{
+    
+/*    border: solid red;*/
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background-image: url( "../pics/Background.jpg") ;
+	background-attachment: fixed;
+	background-repeat: no-repeat;  
+	display: table;
+	top: 0;
+	background-size: cover;
+     -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover; 
+	background-position: center top;
+}
+.intro .inner{
+	vertical-align: middle;
+	max-width: inherit;			
+}
+.inner{
+/*    border: solid blue;*/
+	display: table-cell;
+		width: 100%;
+}
+img{
+    position: relative;
+    left: 25%;
+}
+a{
+    width: 110px;
+    height: 110px;
+}
+a:hover{
+      transform:  scale(1.1);
+}
+h4{
+    font-size: 1em;
+    text-align: center;
+}
+.headline{
+    text-align: center;
+}
+
+input[type=text], textarea,button {
+	
+	width: 70%;
+	display: block;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+    box-sizing: border-box;
+	margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	top: -20px;
+    resize: vertical;
+    -webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;	
+}
+button[type=submit] {    
+    color: black;
+    padding: 12px 20px;    
+    border-radius: 1px;
+    cursor: pointer;
+}
+button:hover  {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px rgba(0,0,0,0.19);
+}
+.second{
+/*    border: solid red;*/
+}
+
+
+/*Tablet size of 769px*/
+@media (min-width: 768px ) and (max-width: 1023px) {
+    .intro{
+		width: 100%;
+		display: table;
+		top: 0;		
+		background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -webkit-background-size: cover; 
+		background-position: bottom;	
+	}
+	 .inner{
+		width: 100%;
+	
+	}
+	.intro .inner{
+	vertical-align: middle;
+	max-width: inherit;			
+	}
+	.inner{
+	display: table-cell;
+		width: 100%;
+	}
+	input[type=text], textarea,button {	
+     width: 50%;    
+	}
+}
+/*Set min-width 425px to max-width 767px*/
+
+@media (min-width: 425px ) and (max-width: 767px) {
+.intro{
+		width: 100%;
+		display: table;
+	}
+	.contactform{		
+		width: 100%;		
+	}
+
+input[type=text], textarea,button {	 
+	position: relative;
+    bottom: 50%;
+	width: 50%;
+    padding: 5px;
+	margin: 0 auto;	 
+/*
+	margin-bottom: 10px;
+    	margin-left: 20%;
+    margin-top: 20px;    
+	top: -20px;
+*/
+	}
+}
+
+@media screen (max-width: 375px) and {
+		html, body{
+		width: 100%;
+	
+	}
+.intro{
+/*		height: 100%;*/
+		width: 100%;
+		display: table;
+		top: 0;		
+		background-size: cover;
+		background-position: bottom;	
+	}
+	
+	input[type=text], textarea,button{
+		}
+}
+
+ 
+@media screen and (max-width: 320px){
+	html, body{
+		width: 320px;
+
+	}
+	.intro{
+	width: 320px;	
+	background-repeat: no-repeat;
+		background-size:cover;
+	}
+
+	.leftImage{
+		width: 100%;
+		
+	}
+	
+  	input[type=text], textarea,button {
+		display: block;
+		width: 100%;
+		
+	
+	}
+}

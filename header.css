@@ -1,0 +1,1540 @@
+
+	* {box-sizing: border-box}
+    /*Set nav */
+    .nav{
+        /*border: solid brown;*/
+        position: fixed;
+        width: 100%;
+        top:0;
+        overflow: hidden;
+        margin-top: 10px;
+        margin-left: 0;
+     right: 2px;
+    }
+    /*Set nav and tablink */
+    .nav, .tablink{
+    float: left;
+     display: block;
+     text-align: center;
+     padding: 14px
+  
+    } 
+	/* Style tab links */
+	.tablink {
+		position: relative;
+		top: 0;
+		line-height: 150px;
+		border-radius: 50%; /* the magic */
+		  -moz-border-radius: 50%;
+		  -webkit-border-radius: 50%;
+		outline: none;
+		cursor: pointer;
+		padding: 20px 16px 20px 16px;
+		margin:  0px 15px 5px 20px;
+		font-size: 20px;
+		width: 150px;
+		/*text-align: center;*/
+		height: 150px;
+    	}
+    	/*Set Louigene*/
+	.louigene{
+	        position: fixed;
+	        margin:0 auto;
+	        left: 25%;
+	         top:5%;
+	      line-height:150px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            display: table;
+            background-image: url("../Logo/MCLogo.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-clip: border-box;
+            background-attachment: inherit;
+	}
+    .tablink:hover {
+		background-color: white;
+		color: black;
+	}
+
+	/* Style the tab content (and add height:100% for full page content) */
+	.tabcontent {
+		position: fixed;
+		height: 100%;
+		width: 90%;
+		top: 45%;
+		/*border:  solid blue;*/
+		overflow: hidden;
+	}
+
+	.row{	
+		/*border:  solid red;*/
+		position: fixed;    
+		width: 90%;
+		height: 300px;
+		left: 3%;
+		margin: 0 auto;
+		top: 60%;
+
+
+	}
+	
+	.column{	
+		position: static;
+		border: 5px solid rgba(192,192,192,0.3);
+		background-color: rgba(192,192,192,0.3) ;
+		width: 25%;
+		height: 90%;
+		float: left;  
+		padding: 10px; 
+		margin-left: 5%;
+		top: -50px;
+	}
+	
+	.gallery{
+		color: darkgoldenrod;
+		margin: 0 auto;
+		}
+
+	h1{	
+		background-color: black;
+		opacity: 0.8;
+		text-align: center;
+		font-size: 3em;
+	}
+	h2{
+			/*border: solid brown;*/
+		font-size: 20px;
+		text-align:center;
+	}
+	
+	h3{
+		font-family: 'Bonbon Regular', 'cursive';
+			/*border: solid brown;*/
+		text-align: center;
+		color: black;
+		font-size: 20px;
+	}
+	
+	p{
+		top: -40%;
+		text-align: center;
+		font-family: 'bonbon';
+		font-size: 35px;
+		background-color:rgba(192,192,192,0.3);
+	}
+	
+	img{
+		position:relative;
+		width: 60%;
+		left: 15%; 
+		top: -10px;		
+		border: 5px solid rgba(192,192,192,0.3);
+		cursor: pointer; 
+	}
+	
+.image:hover{
+	   box-shadow: 10px 10px 5px grey;
+}
+    form * {
+	background: transparent;
+}
+#myform {
+	font: normal .8em/1em Arial, Helvetica, Geneva, sans-serif;
+	width: 90%;
+	margin: 0 auto;
+	max-width: 600px;
+	height: 70%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 20px #20242C;
+	-moz-box-shadow: 10px 10px 20px #20242C;
+	box-shadow: 10px 10px 20px #20242C;
+}
+
+#myform fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+#myform label, .grouphead {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	color: #454D4D;
+	text-shadow: 1px 1px 1px #FFF;
+	/*padding-left: 10px;*/
+}
+
+#myform input[type=text]{
+	display: block;
+	text-align: center;
+	width: 70%;
+	padding: 5px;
+	margin: 0 auto;	
+	margin-bottom: 5px;
+	outline: none;
+	border: 1px solid #999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+ #myform textarea {
+     position: relative;
+     display: block;
+     width:80%;
+    height: 75px;
+     margin-left: -70px;
+     margin-bottom: 20px;
+     top: 30px;
+ }
+
+#myform input[type="radio"] {
+	width: auto;
+	display: inline;
+	margin-left: -20px;
+}
+
+   .request{
+        position: relative;
+        left: 25%;
+        float: left;
+        margin-right: 30px;
+        padding: 20px;
+        margin-bottom: 10px;
+        background-color: rgba(192,192,192,0.3) ;
+    }
+    
+#myform .hint {
+	font-weight: normal;
+	color: #2076c8;
+	margin-left: 10px;
+}
+
+#myform .error {
+	font-weight: normal;
+	color: #cf1925;
+	margin-left: 10px;
+}
+
+#myform button {
+	width: 100px;
+	/*width: 20%;*/
+	min-width: 100px;
+ 	height: 24px;
+	float: right;
+	padding: 0;
+	margin-right: 5px;
+	margin-top: 10px;
+	border: 0;
+	color:#000;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+#formmessage {
+
+	font: bold 1em/1em Arial, Helvetica, Geneva, sans-serif;
+	color: #466E82;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	max-width: 500px;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-box-shadow: 10px 10px 20px #20242C;
+	-moz-box-shadow: 10px 10px 20px #20242C;
+	box-shadow: 10px 10px 20px #20242C;	
+}
+
+#formmessage {
+	padding: 20px;
+}
+	input[type=text], textarea {
+			background-color:rgba(192,192,192,0.3);
+		background-color:rgb(170,170,200);
+	}
+	input[type=text], textarea,button {	
+		width: 30%;
+		display: block;
+		padding: 5px;
+		border-radius: 2%;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		box-sizing: border-box;
+		margin-left: 35%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		resize: vertical;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;			
+	} 
+
+    .comment{
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    
+	button[type=submit] {    
+		color: white;
+		background-color: #e7e7e7;
+		padding: 0px 5px;    
+		border-radius: 1px;
+		cursor: pointer;
+	}
+	
+	button[type=submit]:hover  {
+	 background-color: #555555;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px rgba(0,0,0,0.19);
+	}
+	@media (min-width: 2560px){
+
+	/* Style tab links */
+    	.tablink {
+		float: left;
+		left: 58%;
+		top: 0;		
+		line-height: 250px;
+		border-radius: 50%; /* the magic */
+		/*  -moz-border-radius: 50%;*/
+/*		  -webkit-border-radius: 50%;*/
+		outline: none;
+		cursor: pointer;
+		padding: 20px 16px 20px 16px;
+		margin:  0px 15px 5px 20px;
+		font-size: 25px;
+		width: 250px;
+		text-align: center;
+		height: 250px;
+	}
+	.louigene{
+	        position: fixed;
+	        margin:0 auto;
+	        left: 25%;
+	         top: 3%;
+	      line-height:250px;
+            border-radius: 50%;
+            width: 250px;
+            height:250px;
+
+	}
+	/* Style the tab content (and add height:100% for full page content) */
+	.tabcontent {
+		position: fixed;
+		height: 50%;
+		width: 90%;
+		top: 45%;
+	}
+
+	.row{	
+		position: fixed;    
+		width: 85%;
+		height: 400px;
+		left: 3%;
+		margin: 0 auto;
+		top: 55%;
+
+
+	}
+	.column{	
+		position: static;
+		/*    border: 5px solid black;    */
+		border: 5px solid rgba(192,192,192,0.3);
+		width: 25%;
+		height: 90%;
+		float: left;  
+		padding: 10px; 
+		margin-left: 5%;
+		top: -50px;
+		background-color:rgba(192,192,192,0.3);
+	}
+	.gallery{
+/*		width: %;*/
+		color: darkgoldenrod;
+		/*	border: solid brown;*/
+		display: table;
+		margin: 0 auto;
+/*		top: 10%;*/
+		}
+
+		h1{	
+				background-color: black;
+		opacity: 0.8;
+/*		border: solid brown;*/
+		text-align: center;
+		font-size: 40px;
+	}
+	h2{
+		/*	border: solid brown;*/
+		font-size: 20px;
+		text-align:center;
+	}
+	h3{
+		font-family: 'Bonbon Regular', 'cursive';
+		/*	border: solid brown;*/
+		text-align: center;
+		color: black;
+		font-size: 20px;
+		/*	padding: 10px 50px;*/
+
+	}
+	p{
+		top: -40%;
+		text-align: center;
+		font-family: 'bonbon';
+		font-size: 35px;
+		background-color:rgba(192,192,192,0.3);
+	}
+	img{
+		position:relative;
+		width: 60%;
+		left: 0%; 
+		top: -10px;		
+		border: 5px solid rgba(192,192,192,0.3);
+		cursor: pointer; 
+	}
+img:hover{
+	   box-shadow: 10px 10px 5px grey;
+}
+#myform {
+	font: normal .8em/1em Arial, Helvetica, Geneva, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 700px;
+	height: 70%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 20px #20242C;
+	-moz-box-shadow: 10px 10px 20px #20242C;
+	box-shadow: 10px 10px 20px #20242C;
+}
+
+#myform fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#myform label, .grouphead {
+	font-weight: bold;
+	font-size: 2em;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	color: #454D4D;
+	text-shadow: 1px 1px 1px #FFF;
+	/*padding-left: 10px;*/
+}
+#myform input[type=text]{
+	display: block;
+	text-align: center;
+	width: 90%;
+	height: 50px;
+	padding: 5px;
+	margin: 0 auto;	
+	margin-bottom: 5px;
+	outline: none;
+	border: 1px solid #999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+ #myform textarea {
+     position: relative;
+     display: block;
+     width: 400px;
+     height: 75px;
+     margin-left: 70px;
+     margin-bottom: 20px;
+     top: 30px;
+ }
+
+#myform input[type="radio"] {
+	width: 150px;
+	display: inline;
+	margin-left: -15px;
+	
+}
+   .request{
+        position: relative;
+        left: 10%;
+        float: left;
+        margin-right: 20px;
+        /*top: 10%;*/
+        margin-bottom: 10px;
+    }
+
+#myform button {
+	width: 150px;
+	min-width: 200px;
+ 	height: 24px;
+	float: right;
+	padding: 0;
+	margin-right: 5px;
+	margin-top: 10px;
+	font-size: 2.5em;
+}
+
+	input[type=text], textarea{
+		background-color:rgb(170,170,200);
+	}
+	input[type=text], textarea,button {	
+		width: 30%;
+		display: block;
+		padding: 5px;
+		border-radius: 2%;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		box-sizing: border-box;
+		margin-left: 35%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+/*		top: 100%;*/
+		resize: vertical;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;			
+	}
+	button[type=submit] {    
+		color: black;
+		padding: 0px 5px;    
+		border-radius: 1px;
+		cursor: pointer;
+	}
+}
+
+	@media (min-width: 1440px) and (max-width: 2559px){
+	/* Style tab links */
+	.tablink {
+		position: relative;
+		float: left;
+		left: 58%;
+		bottom: 300px;
+		line-height: 150px;
+		border-radius: 50%; /* the magic */
+		/*  -moz-border-radius: 50%;*/
+/*		  -webkit-border-radius: 50%;*/
+		outline: none;
+		cursor: pointer;
+		padding: 20px 16px 20px 16px;
+		margin:  0px 15px 5px 20px;
+		font-size: 25px;
+		width: 150px;
+		text-align: center;
+		height: 150px;
+	}
+
+	/* Style the tab content (and add height:100% for full page content) */
+	.tabcontent {
+		position: fixed;
+		height: 400px;
+		width: 90%;
+		top: 45%;
+
+	}
+
+	.row{	
+		position: fixed;    
+		width: 90%;
+		height: 300px;
+		left: 3%;
+		margin: 0 auto;
+		top: 55%;
+	}
+	.column{	
+		position: static;
+		border: 5px solid rgba(192,192,192,0.3);
+		width: 25%;
+		height: 90%;
+		float: left;  
+		padding: 10px; 
+		margin-left: 0 auto;
+		top: -50px;
+	}
+	.gallery{
+		display: table;
+		margin:0 auto;
+		}
+
+		h1{	
+		margin: 0;
+	}
+	h2{
+		margin: 0;
+		
+	
+	}
+	h3{
+        margin: 5px;
+	}
+	img{
+		position:relative;
+		width: 80%;
+		left: 0%; 
+		top: -10px;	
+		margin:10px;
+	}
+img:hover{
+	   box-shadow: 10px 10px 5px grey;
+}
+	fieldset{
+		border: none;
+	}
+
+	input[type=text], textarea{
+		background-color:rgb(170,170,200);
+	}
+	input[type=text], textarea,button {	
+		width: 30%;
+		display: block;
+		padding: 5px;
+		border-radius: 2%;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		box-sizing: border-box;
+		margin-left: 35%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+/*		top: 100%;*/
+		resize: vertical;
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;			
+	}
+	button[type=submit] {    
+		color: black;
+		padding: 0px 5px;    
+		border-radius: 1px;
+		cursor: pointer;
+	}
+}
+
+	@media (min-width: 1024px ) and (max-width: 1439px) {
+	* {
+	box-sizing: border-box;
+	}
+	.tabcontent {
+		height: 53%;
+		right: 5%;
+		
+	}
+    	.louigene{
+	    position: fixed;
+	    margin:0 auto;
+	    left: 25%;
+	    top: 5%;
+	     line-height:120px;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        
+    
+	}
+	.tablink {
+		float: left;
+		position: relative;
+		top: 0;
+		left: 55%;
+		font-size: 15px;
+		line-height:100px;
+		border-radius: 50%; /* the magic */		
+		width: 100px;
+		height: 100px;
+	}
+
+
+	.row{	
+		width: 85%;
+		height: 40%;
+		left: 8%;
+		margin: 0 auto;
+		top: 55%;
+
+
+	}
+	.column{	
+		position: static;
+		width: 28%;
+		height: 90%;
+		float: left;  
+		padding: 10px; 
+		margin-left: 0 auto;
+		/*top: -70px;*/
+	}
+	.gallery{
+		display: table;
+		margin:0 auto;
+		
+		}
+
+		h1{	
+		margin: 0;
+	}
+	h2{
+		margin: 0 auto;
+	}
+	h3{
+        margin: 5px;
+	}
+	img{
+		position:relative;
+		width: 80%;
+		left: 0; 
+		top: -10px;	
+		margin:10px;
+	}
+	#myform {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 500px;
+	height: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 20px #20242C;
+	-moz-box-shadow: 10px 10px 20px #20242C;
+	box-shadow: 10px 10px 20px #20242C;
+}
+
+#myform fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+#myform label, .grouphead {
+	font-weight: bold;
+	font-size: 1em;
+	display: block;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	color: #454D4D;
+	text-shadow: 1px 1px 1px #FFF;
+	/*padding-left: 10px;*/
+}
+#myform label{
+	margin-bottom: 10px;
+	margin-left: -40px;
+	padding-right: 60px;
+}
+
+#myform input[type=text]{
+	display: block;
+	text-align: center;
+	width: 50%;
+	height: 25px;
+	padding: 5px;
+	margin: 0 auto;	
+	margin-bottom: 2px;
+	outline: none;
+	border: 1px solid #999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+ #myform textarea {
+     position: relative;
+     display: block;
+     width: 350px;
+     height: 50px;
+     margin-left: 70px;
+     margin-bottom: 0;
+     top: 0;
+ }
+
+#myform input[type="radio"] {
+	/*width: 150px;*/
+	display: inline;
+	margin-right: 70px;
+	
+}
+
+
+#myform button {
+	width: 100px;
+	min-width: 150px;
+ 	height: 24px;
+	float: right;
+	padding: 0;
+	margin-right: 5px;
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+	}
+		/*tablet set as 768px*/
+	@media (min-width: 768px ) and (max-width: 1023px) {
+	.tabcontent {
+		height: 55%;
+		right: 5%;
+	}
+	
+.louigene{
+        margin:0 auto;
+        left: 25%;
+        top: 25px;
+        line-height:100px;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    
+	}
+	
+	.tablink {
+		float: left;
+		/*position: relative;*/
+		/*bottom: 45%;*/
+		left: 55%;
+		/*top: -10px;*/
+		padding: 5px 10px 15px 5px;
+		margin:  0 10px -2px 5px;
+		line-height:90px;
+		border-radius: 50%; /* the magic */
+		/*  -moz-border-radius: 50%;*/
+		/*  -webkit-border-radius: 50%;*/
+		width: 90px;
+		height: 90px;
+	}
+
+	.row{	
+		position: fixed;    
+		width: 70%;
+		height: 46%;
+		left: 15%;
+		top: 55%;
+		overflow: scroll;
+	}
+
+	.column{	
+		/*	border: solid;*/
+		width: 85%;
+		height: 80%;
+		padding: 10px; 
+		margin-left: 5%;
+		top: 30%;	
+		left: 10%;
+	}
+	.gallery{
+		display: table;
+		margin:0 auto;
+		padding: 10px;
+		}
+
+		h1{	
+		margin: 0;
+		font-size: 1.2em;
+	}
+	h2{
+		margin: 0;
+		
+	
+	}
+	h3{
+        margin: 5px;
+	}
+	img{
+		position:relative;
+		width: 50%;
+		left: 0; 
+		top: -10px;	
+		margin:10px;
+	}
+	/*Set form*/
+#myform {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 500px;
+	height: 80%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 20px #20242C;
+	-moz-box-shadow: 10px 10px 20px #20242C;
+	box-shadow: 10px 10px 20px #20242C;
+}
+#myform input[type=text]{
+	display: block;
+	text-align: center;
+	width: 60%;
+	height: 25px;
+	padding: 5px;
+	margin: 0 auto;	
+	margin-right: 45px;
+	margin-bottom: 2px;
+	outline: none;
+	border: 1px solid #999;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+ #myform textarea {
+     position: relative;
+     display: block;
+     width: 300px;
+     height: 50px;
+     margin-left: 30%;
+     margin-bottom: 0;
+     top: 0;
+ }
+
+#myform input[type="radio"] {
+	display: inline;
+		margin-right: 70px;
+}
+#myform label{
+	margin-bottom: 10px;
+	margin-left: -40px;
+	padding-right: 60px;
+}
+#myform button {
+	width: 90px;
+	min-width: 100px;
+ 	height: 24px;
+	float: right;
+	padding: 0;
+	margin-right: 5px;
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+
+	input[type=text], textarea ,button {	
+		width: 40%;
+		display: block;
+		padding: 2px;
+		border-radius: 2%;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		box-sizing: border-box;
+		margin-left: 35%;
+		margin-top: 10px;
+		position: relative;
+		left: -5%;
+		top: 10%;
+
+	}
+	button[type=submit] {    
+		color: black;
+		padding: 0px 5px;    
+		border-radius: 1px;
+		cursor: pointer;
+	}
+	h1{position: relative;
+/*		top: 25%;*/
+	}
+	h3{
+	text-align: center;
+	}
+	h2{	
+	text-align: center;			
+	}
+	p{
+	font-size: 25px;
+	}
+	} 
+
+	@media (min-width: 425px ) and (max-width: 767px) {
+	.tabcontent {
+		height: 50%;
+		right: 5%;
+	}
+    .louigene{
+        position: fixed;
+        margin:0 auto;
+        left: 15%;
+        top: 20px;
+        line-height:70px;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    
+	}
+	.tablink {
+        float: left;
+        left: 47%;
+        top: 0;
+        padding: 5px 10px 15px 5px;
+        margin:  0 10px -2px 5px;
+        font-size: 0.7em;
+        line-height:60px;
+        border-radius: 50%;	/* the magic */
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 60px;
+        height: 60px;
+	}
+
+	.row{	
+		position: fixed;    
+		width: 70%;
+		height: 36%;
+		left: 15%;
+		top: 55%;
+		overflow: scroll;
+	}
+
+	.column{	
+		/*	border: solid;*/
+		width: 85%;
+		height: 90%;
+		padding: 10px; 
+		margin-left: 5%;
+		top: 30%;	
+		left: 10%;
+	}
+	.gallery{
+		display: table;
+		margin:0 auto;
+		
+		}
+
+		h1{	
+		    font-size: 1em;
+		margin: 0;
+		text-align: center;
+	}
+	h2{
+		margin: 5px;
+		/*padding-top: 10px;*/
+		text-align: center;
+	
+	}
+	h3{
+	    text-align: center;
+        margin: 5px;
+	}
+	img{
+		position:relative;
+		width: 60%;
+		left: 0; 
+		bottom: 10px;	
+		margin: 5px;
+		/*padding-bottom: 15px;*/
+	}
+	#myform {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 300px;
+	height: 90%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 20px #20242C;
+	-moz-box-shadow: 10px 10px 20px #20242C;
+	box-shadow: 10px 10px 20px #20242C;
+}
+	#myform input[type=text]{
+	display: block;
+	text-align: center;
+	width: 90%;
+	left: 0;
+	padding: 5px;
+	margin: 0 auto;	
+	margin-bottom: 5px;
+	outline: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#myform label, .grouphead {
+    font-size: .7em;
+}
+     #myform textarea {
+     position: relative;
+     display: block;
+     width: 250px;
+     height: 50px;
+     margin-left: 35%;
+     /*margin-bottom: 10px;*/
+     top: 0;
+ }
+
+#myform input[type="radio"] {
+	display: inline;
+		margin-right: 70px;
+}
+#myform label{
+	margin-bottom: 10px;
+	margin-left: -40px;
+	padding-right: 60px;
+}
+#myform button {
+    position:relative;
+	width: 90px;
+	min-width: 100px;
+ 	height: 24px;
+	float: right;
+	bottom: 25px;
+	left: -15px;
+	font-size: 1.5em;
+}
+	input[type=text], textarea{	
+		display: block;
+		padding: 5px;
+		border-radius: 2%;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		box-sizing: border-box;
+		position: relative;
+		left: -25%;
+
+	}
+	button[type=submit] {    
+		color: black;
+		padding: 0px 5px;    
+		border-radius: 1px;
+		cursor: pointer;
+	}
+
+	p{
+	font-size: 20px;
+	}
+	}
+
+	@media (min-width: 375px ) and (max-width: 424px) { 
+	.tabcontent {
+		height: 50%;
+		right: 5%;
+	}
+    .louigene{
+	    position: fixed;
+	    margin:0 auto;
+	    left: 10%;
+	    top: 20px;
+	      line-height:70px;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+    
+	}
+	.tablink {
+		position: relative;
+		left: 30%;
+		top: 0;
+		padding: 5px 10px 15px 5px;
+		margin:  0 10px -2px 5px;
+		font-size: 15px;
+		line-height:60px;
+		border-radius: 50%; /* the magic */
+		  -moz-border-radius: 50%;
+		  -webkit-border-radius: 50%;
+		width: 60px;
+		height: 60px;
+		font-size: 0.8em;
+	}
+
+	.row{	
+		position: fixed;    
+		width: 70%;
+		height: 36%;
+		left: 15%;
+		top: 55%;
+		overflow: scroll;
+	}
+
+	.column{	
+		/*	border: solid;*/
+		width: 85%;
+		height: 80%;
+		padding: 10px; 
+		margin-left: 5%;
+		top: 30%;	
+		left: 10%;
+	}
+	.gallery{
+		display: table;
+		margin:0 auto;
+		
+		}
+
+		h1{	
+		margin: 0;
+		font-size:1.5em;
+	}
+	h2{
+		margin: 0;
+		
+	
+	}
+	h3{
+        margin: 5px;
+	}
+	p{
+	    font-size: 1.5em;
+	}
+	img{
+		position:relative;
+		width: 60%;
+		left: 0; 
+		top: -10px;	
+		margin:10px;
+	}
+	#myform {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 300px;
+	height: 90%;
+
+}
+		#myform input[type=text]{
+	display: block;
+	text-align: center;
+	width: 90%;
+	left: 0;
+	padding: 5px;
+	margin: 0 auto;	
+	margin-bottom: 5px;
+	outline: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#myform label, .grouphead {
+    font-size: .7em;
+}
+     #myform textarea {
+     position: relative;
+     display: block;
+     width: 250px;
+     height: 50px;
+     margin-left: 35%;
+     /*margin-bottom: 10px;*/
+     top: 0;
+ }
+
+#myform input[type="radio"] {
+	display: inline;
+		margin-right: 70px;
+}
+#myform label{
+	margin-bottom: 10px;
+	margin-left: -40px;
+	padding-right: 60px;
+}
+#myform button {
+    position:relative;
+	width: 90px;
+	min-width: 100px;
+ 	height: 24px;
+	float: right;
+	bottom: 25px;
+	left: -15px;
+	font-size: 1.5em;
+}
+	input[type=text], textarea{	
+		display: block;
+		padding: 5px;
+		border-radius: 2%;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		box-sizing: border-box;
+		position: relative;
+		left: -25%;
+
+	}
+
+	button[type=submit] {    
+		color: black;
+		padding: 0px 5px;    
+		border-radius: 1px;
+		cursor: pointer;
+	}
+	}
+	
+	@media screen and (min-width: 321px) and (max-width:374px) {
+	/* Style the tab content (and add height:100% for full page content) */
+	.tabcontent {
+		height: 50%;
+		right: 5%;
+	}
+.louigene{
+	    position: fixed;
+	    margin:0 auto;
+	    left: 10%;
+	    top: 25px;
+	      line-height:70px;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+    
+	}
+	.tablink {
+		float: left;
+		bottom: 250px;
+		left: 30%;
+		top: 0;
+		padding: 5px 10px 15px 5px;
+		margin:  0 10px -2px 5px;
+		font-size: .8em;
+		line-height:60px;
+		border-radius: 50%; /* the magic */
+		/*  -moz-border-radius: 50%;*/
+		/*  -webkit-border-radius: 50%;*/
+		width: 60px;
+		height: 60px;
+	}
+
+	.row{	
+		position: fixed;    
+		width: 70%;
+		height: 36%;
+		left: 15%;
+		top: 55%;
+		overflow: scroll;
+	}
+
+	.column{	
+		/*	border: solid;*/
+		width: 85%;
+		height: 80%;
+		padding: 10px; 
+		margin-left: 5%;
+		top: 30%;	
+		left: 10%;
+	}
+	.gallery{
+		display: table;
+		margin:0 auto;
+		}
+
+		h1{	
+		    font-size: 1.5em;
+		margin: 0;
+	}
+	h2{
+		margin: 0;
+		
+	
+	}
+	h3{
+        margin: 5px;
+	}
+	p{
+	    font-size: 1.5em;
+	}
+	img{
+		position:relative;
+		width: 65%;
+		left: 0; 
+		top: -10px;	
+		margin:10px;
+	}
+		#myform {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 300px;
+	height: 90%;
+
+}
+		#myform input[type=text]{
+	display: block;
+	text-align: center;
+	width: 90%;
+	left: 0;
+	padding: 5px;
+	margin: 0 auto;	
+	margin-bottom: 5px;
+	outline: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#myform label, .grouphead {
+    font-size: .7em;
+}
+     #myform textarea {
+     position: relative;
+     display: block;
+     width: 250px;
+     height: 50px;
+     margin-left: 35%;
+     /*margin-bottom: 10px;*/
+     top: 0;
+ }
+
+#myform input[type="radio"] {
+	display: inline;
+		margin-right: 70px;
+}
+#myform label{
+	margin-bottom: 10px;
+	margin-left: -40px;
+	padding-right: 60px;
+}
+#myform button {
+    position:relative;
+	width: 90px;
+	min-width: 100px;
+ 	height: 24px;
+	float: right;
+	bottom: 25px;
+	left: -15px;
+	font-size: 1.5em;
+}
+	input[type=text], textarea{	
+		display: block;
+		padding: 5px;
+		border-radius: 2%;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		box-sizing: border-box;
+		position: relative;
+		left: -25%;
+
+	}
+	}
+	
+	@media screen and (max-width: 320px) {
+	/* Style the tab content (and add height:100% for full page content) */
+	.tabcontent {
+		height: 50%;
+		right: 5%;
+	}
+.louigene{
+        margin:0 auto;
+        left: 10%;
+        top: 25px;
+        line-height:60px;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+    
+	}
+		.tablink {
+		left: 30%;
+		top: 0;
+		padding: 5px 10px 15px 5px;
+		margin:  0 10px -2px 5px;
+		font-size: .6em;
+		line-height:50px;
+		border-radius: 50%; /* the magic */
+		  -moz-border-radius: 50%;
+		  -webkit-border-radius: 50%;
+		width: 50px;
+		height: 50px;
+	}
+
+	.row{	
+		position: fixed;    
+		width: 70%;
+		height: 36%;
+		left: 15%;
+		top: 55%;
+		overflow: scroll;
+	}
+
+	.column{	
+		/*	border: solid;*/
+		width: 85%;
+		height: 80%;
+		padding: 10px; 
+		margin-left: 5%;
+		top: 30%;	
+		left: 10%;
+	}
+	.gallery{
+		display: table;
+		margin:0 auto;
+		}
+
+		h1{	
+		margin: 0;
+		font-size: 1.5em;
+	}
+	h2{
+		margin: 0;
+		
+	
+	}
+	h3{
+        margin: 5px;
+	}
+	p{
+	    font-size: 1.5em;
+	}
+	img{
+		position:relative;
+		width: 65%;
+		left: 0; 
+		top: -10px;	
+		margin:10px;
+	}
+	#myform {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 300px;
+	height: 90%;
+
+}
+		#myform input[type=text]{
+	display: block;
+	text-align: center;
+	width: 90%;
+	left: 0;
+	padding: 5px;
+	margin: 0 auto;	
+	margin-bottom: 5px;
+	outline: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#myform label, .grouphead {
+    font-size: .7em;
+}
+     #myform textarea {
+     position: relative;
+     display: block;
+     width: 240px;
+     height: 50px;
+     margin-left: 35%;
+     /*margin-bottom: 10px;*/
+     top: 0;
+ }
+
+#myform input[type="radio"] {
+	display: inline;
+		margin-right: 70px;
+}
+#myform label{
+	margin-bottom: 10px;
+	margin-left: -40px;
+	padding-right: 60px;
+}
+#myform button {
+    position:relative;
+	width: 90px;
+	min-width: 100px;
+ 	height: 24px;
+	float: right;
+	bottom: 25px;
+	left: -15px;
+	font-size: 1.5em;
+}
+	input[type=text], textarea{	
+		display: block;
+		padding: 5px;
+		border-radius: 2%;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		box-sizing: border-box;
+		position: relative;
+		left: -25%;
+
+	}
+	}

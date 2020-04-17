@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*navigation bar */
+#header{
+	position: fixed;
+	width: 600px;
+	height: 77px;
+	left: 30%;
+}
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding-top:-10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+	position: relative;
+	border: 5px solid yellow;
+	width: 60px;
+	left: 250px;
+   	float: left;
+   	top: 20px;
+}
+
+li a {
+	top:10px;
+ 	display: block;
+ 	text-align: center;
+ 	padding:16px;
+ 	text-decoration: none;
+}
+
+li a:hover {
+	color: #fff;
+    background-color: gold;
+}
+/*end of the navigation*/
+
+
+
+
+
